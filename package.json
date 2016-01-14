@@ -1,0 +1,34 @@
+{
+  "name": "accounting-update",
+  "version": "1.0.0",
+  "description": "Updating personal budgeting spreadsheet",
+  "main": "index.js",
+  "scripts": {
+    "start": "sh scripts/start.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nigelsdtech/accounting-update.git"
+  },
+  "keywords": [
+    "Accounts",
+    "accounting"
+  ],
+  "author": "Nigel Stephen D'Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nigelsdtech/accounting-update/issues"
+  },
+  "homepage": "https://github.com/nigelsdtech/accounting-update#readme",
+  "dependencies": {
+    "config": "1.x",
+    "googleapis": "2.x",
+    "log4js": "0.x",
+    "gmail-model": "github:nigelsdtech/gmail-model"
+  },
+  "config": {
+    "appName" : "accounting-update",
+    "googleAuthScopes" : "https://www.googleapis.com/auth/gmail.readonly"
+  }
+}
